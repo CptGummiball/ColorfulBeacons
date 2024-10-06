@@ -1,0 +1,14 @@
+name: ColorfulBeacons
+version: '1.0'
+main: org.cptgummiball.colorfulBeacons.ColorfulBeacons
+api-version: '1.21'
+prefix: ColorfulBeacons
+authors: [ cptgummiball ]
+commands:
+  setbeaconcolor:
+    description: Set color of the beacon
+    usage: /setbeaconcolor <color|hex>
+permissions:
+  colorfulbeacons.use:
+    description: permits usage of the /setbeaconcolor commad
+    default: true
